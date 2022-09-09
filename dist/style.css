@@ -24,6 +24,11 @@ body {
   margin-top: 5px;
 }
 
+.description {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
 .page-logo {
   width: 200px;
 }
@@ -50,6 +55,7 @@ button {
   padding: 4px 8px;
   border-radius: 10px;
   background: #ffffff;
+  margin-bottom: 20px;
 }
 
 h2 {

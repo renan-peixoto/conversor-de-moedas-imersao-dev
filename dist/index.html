@@ -16,10 +16,21 @@
     Descubra os valores em dolar U$
   </p>
   <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-  <label for="moeda">Insira o valor</label><br>
-  <input type="number" id="valor" size="2" /><br>
-  <button type="submit" onclick="converter()">Converter</button>
-  <h2 id="valorConvertido"></h2>
+  <div class="convert-to">
+    <p class="description">Descubra o valor em dolar U$</p>
+    <label for="moeda">Insira o valor</label><br>
+    <input type="number" id="valorDolar" size="2" /><br>
+    <button type="submit" onclick="converterDolar()">Converter</button>
+  </div>
+  <div class="convert-to">
+    <p class="description">Descubra o valor em euro €</p>
+    <label for="moeda">Insira o valor</label><br>
+    <input type="number" id="valorEuro" size="2" /><br>
+    <button type="submit" onclick="converterEuro()">Converter</button>
+  </div>
+  
+  <h2 id="valorConvertidoDolar"></h2>
+  <h2 id="valorConvertidoEuro"></h2>
 </div>
 <a href="https://alura.com.br/" target="_blank">
   <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
